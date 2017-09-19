@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PSNavigationSearchField.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    PSNavigationSearchField *searchField = [PSNavigationSearchField navigationSearchField];
+    searchField.naviTitle = @"搜索框Demo";
+    self.navigationItem.titleView = searchField;
 }
 
 

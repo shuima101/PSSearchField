@@ -68,7 +68,7 @@
     
     UIImageView *tfLeftImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0., 0., self.height, self.height)];
     tfLeftImgView.contentMode = UIViewContentModeCenter;
-    tfLeftImgView.image = [UIImage imageNamed:@"card_dealBill_search"];
+    tfLeftImgView.image = [UIImage imageNamed:@"search"];
     tfLeftImgView.backgroundColor = [UIColor clearColor];
     _searchTextField.leftView = tfLeftImgView;
     _searchTextField.leftViewMode = UITextFieldViewModeAlways;
